@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "journey": "Trayectoria",
+    "skills": "Habilidades",
+    "getInTouch": "¡Contacta!",
+    "languages": [
+      { "code": "es", "label": "ES", "name": "Español" },
+      { "code": "en", "label": "EN", "name": "English" }
+    ]
+  },
+  "hero": {
+    "greeting": "¡Hola! 👋",
+    "intro": "Soy {{name}}.",
+    "description": "Desde Castro Urdiales, España, soy Analista Desarrollador de Software. Me apasiona trabajar con aplicaciones empresariales, APIs REST y tecnologías cloud. Especializado en desarrollo full-stack, optimización de rendimiento y construcción de software robusto.",
+    "badge": "Full-Stack Developer"
+  },
+  "about": {
+    "title": "SOBRE MÍ",
+    "text": "Analista desarrollador de software con más de <span class=\"highlight yellow\">6 años</span> de experiencia en desarrollo full-stack (Java, Spring Boot, Oracle, TypeScript, Angular). A lo largo de mi carrera, he ocupado puestos en reconocidas empresas tecnológicas en <span class=\"highlight pink\">España</span>. Mis contribuciones han sido clave en la modernización de <span class=\"highlight blue\">aplicaciones empresariales</span>, la implementación de <span class=\"highlight blue\">APIs REST con Spring Boot</span> y en el <span class=\"highlight green\">desarrollo full-stack</span>.\n\nMi pasión por el <span class=\"highlight yellow\">aprendizaje continuo y la innovación</span> se refleja en mi presencia activa en diversas plataformas. Me motiva mantenerme actualizado con las <span class=\"highlight pink\">últimas tendencias y tecnologías</span> en el cambiante panorama tecnológico.\n\nAporto una combinación única de <span class=\"highlight blue\">experiencia técnica</span>, <span class=\"highlight blue\">cualidades de liderazgo</span> y un genuino entusiasmo por crear <span class=\"highlight green\">soluciones de software con impacto</span>."
+  },
+  "journey": {
+    "title": "Mi Trayectoria",
+    "timelineHeading": "Línea Temporal",
+    "jobs": [
+      {
+        "role": "Analista Desarrollador de Software",
+        "company": "Gertek",
+        "period": "Ene 2024 – Actual",
+        "description": "Modernización del módulo de facturación y gestión de peajes de Gipuzkoa. Configuración de máquinas, gestión de builds con Maven y Jenkins, y despliegue de aplicaciones en diferentes entornos. Desarrollo y optimización de APIs REST con Spring Boot.",
+        "location": "Vizcaya, España"
+      },
+      {
+        "role": "Analista Desarrollador de Software",
+        "company": "Prime IT",
+        "period": "Ene 2023 – Dic 2024",
+        "description": "Desarrollo y mantenimiento de la aplicación de gestión de peajes de Gipuzkoa. Implementación de funcionalidades con Java, Spring Boot, Jooq y Oracle en backend. Desarrollo de interfaces de usuario con Angular en frontend.",
+        "location": "España"
+      },
+      {
+        "role": "Analista Desarrollador de Software",
+        "company": "Hiberus IKT",
+        "period": "Jun 2021 – Dic 2022",
+        "description": "Análisis, diseño y desarrollo de aplicaciones para la Comunidad de Madrid con Java, Spring Boot, Hibernate, Oracle y PL/SQL. Desarrollo y mantenimiento de aplicaciones web de gestión administrativa con Angular y JSF.",
+        "location": "España"
+      },
+      {
+        "role": "Desarrollador de Software",
+        "company": "Grupo Versia",
+        "period": "Abr 2019 – May 2021",
+        "description": "Mantenimiento y mejora de aplicaciones web (PHP y MySQL). Desarrollo de aplicación de generación automatizada de cartelería para Eroski (.NET, Oracle y PL/SQL). Desarrollo de portales web para la Diputación Foral de Gipuzkoa.",
+        "location": "Bilbao, España"
+      },
+      {
+        "role": "Desarrollador de Software",
+        "company": "Sopra Steria Bilbao",
+        "period": "Abr 2018 – Jun 2018",
+        "description": "Desarrollo y mantenimiento de aplicaciones web educativas (Java, HTML, CSS, JavaScript, Bootstrap). Gestión, configuración y soporte de la plataforma Moodle para colegios e institutos de Vizcaya.",
+        "location": "Bilbao, España"
+      }
+    ],
+    "mapPins": {
+      "castro": "CASTRO URDIALES",
+      "bilbao": "BILBAO"
+    }
+  },
+  "skills": {
+    "title": "HABILIDADES",
+    "categories": {
+      "frontend": "FRONTEND",
+      "languages": "LENGUAJES",
+      "backend": "BACKEND",
+      "devops": "DEVOPS",
+      "databases": "BASES DE DATOS",
+      "testing": "TESTING",
+      "architecture": "ARQUITECTURA",
+      "methodologies": "METODOLOGÍAS"
+    },
+    "items": {
+      "frontend": ["React", "Angular", "HTML", "CSS", "Bootstrap", "JSF"],
+      "languages": [
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "PHP",
+        "SQL",
+        "PL/SQL"
+      ],
+      "backend": ["Spring Boot", "Hibernate", "Jooq", "Node.js", ".NET"],
+      "devops": ["Jenkins", "Git", "Maven", "CI/CD"],
+      "databases": ["Oracle", "PostgreSQL", "MySQL"],
+      "testing": ["JUnit"],
+      "architecture": ["APIs REST", "Microservicios", "MVC"],
+      "methodologies": ["Agile", "Scrum"]
+    },
+    "topSkills": [
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "React",
+      "SQL",
+      "Docker",
+      "Node.js",
+      "TypeScript",
+      "Git",
+      "Maven"
+    ]
+  },
+  "education": {
+    "title": "FORMACIÓN",
+    "degrees": [
+      {
+        "degree": "Técnico Superior en Desarrollo de Aplicaciones Web",
+        "school": "IES Ataulfo Argenta",
+        "period": "2018 – 2019",
+        "location": "Castro Urdiales, España"
+      },
+      {
+        "degree": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
+        "school": "IES Ataulfo Argenta",
+        "period": "2016 – 2018",
+        "location": "Castro Urdiales, España"
+      }
+    ],
+    "languagesTitle": "IDIOMAS",
+    "langs": [
+      { "name": "Español", "level": 5 },
+      { "name": "Inglés", "level": 3 }
+    ]
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "subtitle": "Construyamos algo increíble juntos",
+    "footer": "Javier Amurrio Santos.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email"
+  }
+}

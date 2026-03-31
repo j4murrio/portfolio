@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "journey": "Journey",
+    "skills": "Skills",
+    "getInTouch": "Get in Touch!",
+    "languages": [
+      { "code": "es", "label": "ES", "name": "Español" },
+      { "code": "en", "label": "EN", "name": "English" }
+    ]
+  },
+  "hero": {
+    "greeting": "Hi there! 👋",
+    "intro": "I'm {{name}}.",
+    "description": "Based in Castro Urdiales, Spain, I'm a Software Developer Analyst. I love to work with enterprise applications, REST APIs, and cloud technologies. I'm passionate about full-stack development, performance optimization, and building robust software.",
+    "badge": "Full-Stack Developer"
+  },
+  "about": {
+    "title": "ABOUT",
+    "text": "Software Developer Analyst with over <span class=\"highlight yellow\">6 years</span> of experience in full-stack development (Java, Spring Boot, Oracle, TypeScript, Angular). Throughout my career, I've held positions in renowned tech companies across <span class=\"highlight pink\">Spain</span>. My contributions have been pivotal in modernizing <span class=\"highlight blue\">enterprise applications</span>, implementing <span class=\"highlight blue\">REST APIs with Spring Boot</span>, and engaging in <span class=\"highlight green\">full-stack development</span>.\n\nMy passion for <span class=\"highlight yellow\">continuous learning and innovation</span> is evident through my active presence on various platforms. I thrive on staying updated with the <span class=\"highlight pink\">latest trends and technologies</span> in the ever-evolving tech landscape.\n\nI bring a unique blend of <span class=\"highlight blue\">technical expertise</span>, <span class=\"highlight blue\">leadership qualities</span>, and a genuine enthusiasm for creating <span class=\"highlight green\">impactful software solutions</span>."
+  },
+  "journey": {
+    "title": "My Journey",
+    "timelineHeading": "Journey Timeline",
+    "mapPins": {
+      "castro": "CASTRO URDIALES",
+      "bilbao": "BILBAO"
+    },
+    "jobs": [
+      {
+        "role": "Software Developer Analyst",
+        "company": "Gertek",
+        "period": "Jan 2024 – Present",
+        "description": "Modernization of the billing and toll management module for Gipuzkoa. Machine configuration, build management with Maven and Jenkins, and application deployment across environments. Development and optimization of REST APIs with Spring Boot.",
+        "location": "Vizcaya, Spain"
+      },
+      {
+        "role": "Software Developer Analyst",
+        "company": "Prime IT",
+        "period": "Jan 2023 – Dec 2024",
+        "description": "Development and maintenance of the Gipuzkoa toll management application. Implementation of features with Java, Spring Boot, Jooq and Oracle on backend. Frontend development with Angular.",
+        "location": "Spain"
+      },
+      {
+        "role": "Software Developer Analyst",
+        "company": "Hiberus IKT",
+        "period": "Jun 2021 – Dec 2022",
+        "description": "Analysis, design and development of applications for the Community of Madrid with Java, Spring Boot, Hibernate, Oracle and PL/SQL. Web application development with Angular and JSF.",
+        "location": "Spain"
+      },
+      {
+        "role": "Software Developer",
+        "company": "Grupo Versia",
+        "period": "Apr 2019 – May 2021",
+        "description": "Web application maintenance and improvement (PHP and MySQL). Development of automated signage generation app for Eroski (.NET, Oracle, PL/SQL). Web portals for Diputación Foral de Gipuzkoa.",
+        "location": "Bilbao, Spain"
+      },
+      {
+        "role": "Software Developer",
+        "company": "Sopra Steria Bilbao",
+        "period": "Apr 2018 – Jun 2018",
+        "description": "Development and maintenance of educational web applications (Java, HTML, CSS, JavaScript, Bootstrap). Moodle platform management and support for schools in Vizcaya.",
+        "location": "Bilbao, Spain"
+      }
+    ]
+  },
+  "skills": {
+    "title": "SKILLS",
+    "categories": {
+      "frontend": "FRONTEND",
+      "languages": "LANGUAGES",
+      "backend": "BACKEND",
+      "devops": "DEVOPS",
+      "databases": "DATABASES",
+      "testing": "TESTING",
+      "architecture": "ARCHITECTURE",
+      "methodologies": "METHODOLOGIES"
+    },
+    "items": {
+      "frontend": ["React", "Angular", "HTML", "CSS", "Bootstrap", "JSF"],
+      "languages": [
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "PHP",
+        "SQL",
+        "PL/SQL"
+      ],
+      "backend": ["Spring Boot", "Hibernate", "Jooq", "Node.js", ".NET"],
+      "devops": ["Jenkins", "Git", "Maven", "CI/CD"],
+      "databases": ["Oracle", "PostgreSQL", "MySQL"],
+      "testing": ["JUnit"],
+      "architecture": ["REST APIs", "Microservices", "MVC"],
+      "methodologies": ["Agile", "Scrum"]
+    },
+    "topSkills": [
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "React",
+      "SQL",
+      "Docker",
+      "Node.js",
+      "TypeScript",
+      "Git",
+      "Maven"
+    ]
+  },
+  "education": {
+    "title": "EDUCATION",
+    "degrees": [
+      {
+        "degree": "Advanced Diploma in Web Application Development",
+        "school": "IES Ataulfo Argenta",
+        "period": "2018 – 2019",
+        "location": "Castro Urdiales, Spain"
+      },
+      {
+        "degree": "Advanced Diploma in Multiplatform Application Development",
+        "school": "IES Ataulfo Argenta",
+        "period": "2016 – 2018",
+        "location": "Castro Urdiales, Spain"
+      }
+    ],
+    "languagesTitle": "LANGUAGES",
+    "langs": [
+      { "name": "Spanish", "level": 5 },
+      { "name": "English", "level": 3 }
+    ]
+  },
+  "contact": {
+    "title": "GET IN TOUCH",
+    "subtitle": "Let's build something amazing together",
+    "footer": "Javier Amurrio Santos.",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email"
+  }
+}

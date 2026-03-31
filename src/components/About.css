@@ -1,0 +1,20 @@
+.about-card {
+  padding: 40px 48px;
+  max-width: 900px;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.9;
+  font-family: var(--font-mono);
+}
+
+.about-text p {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    padding: 24px;
+  }
+}

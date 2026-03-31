@@ -1,0 +1,107 @@
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease;
+}
+
+.loading-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.initials-tiles {
+  display: flex;
+  gap: 4px;
+}
+
+.tile {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--black);
+  border: 3px solid var(--black);
+  box-shadow: 4px 4px 0 var(--black);
+}
+
+.tile-blue {
+  background: var(--blue);
+}
+
+.tile-pink {
+  background: var(--pink);
+}
+
+.progress-bar-container {
+  width: 200px;
+  height: 12px;
+  background: var(--white);
+  border: 3px solid var(--black);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: var(--black);
+  transition: width 0.1s linear;
+}
+
+/* Floating icons */
+.floating-icon {
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--black);
+  background: var(--blue);
+  border: 3px solid var(--black);
+  box-shadow: 3px 3px 0 var(--black);
+  padding: 10px 14px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.icon-code {
+  top: 12%;
+  left: 8%;
+  animation-delay: 0s;
+}
+
+.icon-terminal {
+  top: 22%;
+  right: 8%;
+  background: var(--green);
+  animation-delay: 1s;
+}
+
+.icon-floppy {
+  bottom: 25%;
+  left: 18%;
+  font-size: 1.8rem;
+  background: var(--white);
+  animation-delay: 0.5s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
