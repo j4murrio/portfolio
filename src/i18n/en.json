@@ -89,10 +89,12 @@
         "PL/SQL"
       ],
       "backend": ["Spring Boot", "Hibernate", "Jooq", "Node.js", ".NET"],
-      "devops": ["Jenkins", "Git", "Maven", "CI/CD"],
+      "devops": ["Jenkins", "Git", "Maven", "CI/CD", "Docker", "Kubernetes"],
       "databases": ["Oracle", "PostgreSQL", "MySQL"],
-      "testing": ["JUnit"],
+      "messaging": ["Apache Pulsar", "RabbitMQ"],
+      "testing": ["JUnit", "Mockito"],
       "architecture": ["REST APIs", "Microservices", "MVC"],
+      "observability": ["Grafana"],
       "methodologies": ["Agile", "Scrum"]
     },
     "topSkills": [
