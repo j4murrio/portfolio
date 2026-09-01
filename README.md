@@ -32,3 +32,12 @@ npm run preview
 3. Click **Deploy**.
 
 The project includes a `vercel.json` with a catch-all rewrite to `index.html` for client-side routing.
+
+## Deploy on GitHub
+
+1. Switch to the `main` branch.
+2. Build and deploy the project:
+   ```bash
+   npm run build
+   npm run deploy
+   ```
